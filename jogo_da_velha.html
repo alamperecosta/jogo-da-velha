@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOGO DA VELHA</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+        <div class="com">
+            <div class="incone">
+                <p class="x">x</p>
+                <p class="o">o</p>
+            </div>
+            <div class="switch__container">
+                <input id="switch-shadow" class="switch switch--shadow" type="checkbox">
+                <label for="switch-shadow">
+                    <span id="x">x</span>
+                    <span id="o">o</span>
+                </label>
+            </div>
+        </div>
+    -->
+    <div class="tabuleiro">
+        
+        <div class="opcoes">
+            <div class="xouo">
+                <span class="x">x</span>
+                <span class="o">o</span>
+            </div>
+            <div class="vez">
+                <div class="suavez"><p></p></div>
+            </div>
+            <div class="reiniciar">
+                <button class="zerar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
+                        <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="casas">
+            <div class="a1" id="casa"></div>
+            <div class="a1" id="casa"></div>
+            <div class="a1" id="casa"></div>
+
+            <div class="b1" id="casa"></div>
+            <div class="b1" id="casa"></div>
+            <div class="b1" id="casa"></div>
+
+            <div class="c1" id="casa"></div>
+            <div class="c1" id="casa"></div>
+            <div class="c1" id="casa"></div>
+        </div>
+        <div class="jogador">
+            <div class="jogador1">
+                <h4>x (p1)</h4>
+                <p>0</p>
+            </div>
+            <div class="jogadas">
+                <h4>feitas</h4>
+                <p>0</p>
+            </div>
+            <div class="jogador2">
+                <h4>o (p2)</h4>
+                <p>0</p>
+            </div>
+        </div>
+    </div>
+    <div>{
+        <p class="ganhador"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
